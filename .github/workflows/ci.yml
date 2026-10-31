@@ -1,0 +1,39 @@
+name: Verify LeafScribe
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  portable-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s Tests/Engine -v
+      - run: python3 Scripts/test_upstream.py
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: astral-sh/setup-uv@v6
+      - run: swift test
+      - run: Scripts/build_app.sh
+      - run: codesign --verify --deep --strict dist/LeafScribe.app
+      - name: Bundled helper health check
+        run: |
+          printf '%s\n' '{"version":1,"action":"health"}' | dist/LeafScribe.app/Contents/Helpers/leafscribe-engine
+      - name: Package application with permissions intact
+        run: ditto -c -k --sequesterRsrc --keepParent dist/LeafScribe.app dist/LeafScribe-macOS.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LeafScribe-macOS
+          path: dist/LeafScribe-macOS.zip
+# WebKit/Vision verification requires a logged-in graphical macOS session.
+# Run Scripts/verify_bundle.sh locally before publishing a release.

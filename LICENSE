@@ -1,0 +1,55 @@
+LeafScribe Personal Use License 1.0
+
+Copyright (c) 2026 Rafael Reverberi and LeafScribe contributors.
+
+1. Scope
+This license applies only to the independently authored LeafScribe code,
+documentation, and artwork, except material explicitly licensed otherwise.
+Third-party components and the original demonstration content retain their
+own licenses. In particular, Engine/vendor/beook_export, Tests/Upstream,
+Scripts/inspect_upstream_epub.py, and other attributed beook-export material
+remain subject to the upstream MIT license, without the restrictions below.
+See THIRD_PARTY_NOTICES.md and Licenses/ for the applicable terms.
+
+2. Permission for private, non-commercial use
+Individuals may download, install, run, study, copy, and modify LeafScribe
+solely for their own private, non-commercial purposes. Individuals may share
+unmodified copies and publish non-commercial forks for the same permitted
+purposes, provided this license and all third-party notices are retained.
+Modified versions must be clearly identified as modified and must not imply
+endorsement by the original author.
+
+3. Uses requiring separate permission
+Commercial use, sale, paid distribution, paid hosting, inclusion in a paid
+product or service, and use on behalf of an employer, business, school,
+institution, or other organization are not permitted under this license.
+Contact the copyright holder for separate written permission. No trademark
+rights are granted. All rights not expressly granted are reserved.
+
+4. Books and other content
+This license grants no rights in books, covers, annotations, publisher
+resources, or other third-party content. You are responsible for obtaining
+all necessary rights and permissions for any import, extraction, conversion,
+export, copying, and use. A private or non-commercial purpose does not by
+itself establish that a particular use is lawful. Do not distribute content
+without the necessary authorization. This software is not permission to
+circumvent DRM, access controls, or contractual restrictions.
+
+5. No warranty; use at your own risk
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY,
+NONINFRINGEMENT, OR PRESERVATION OF DATA. YOU USE IT AT YOUR OWN RISK AND
+SHOULD KEEP BACKUPS AND REVIEW EXPORTED FILES.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDERS AND
+CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE OR ITS USE. NOTHING IN THIS LICENSE EXCLUDES LIABILITY
+THAT CANNOT LAWFULLY BE EXCLUDED.
+
+6. Termination
+Permission under this license ends if you violate its terms. This does not
+limit rights independently granted under the licenses of third-party
+components. Provisions concerning content rights, warranty, and liability
+survive termination.

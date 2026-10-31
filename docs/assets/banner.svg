@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+<title id="title">LeafScribe — Your books. Your notes. Your format.</title>
+<desc id="desc">A forest green banner with illustrated book pages, highlights and a note, representing local document conversion.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#132c23"/><stop offset="1" stop-color="#315b46"/></linearGradient>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f8f5e8"/><stop offset="1" stop-color="#e8e6d5"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="220%" height="220%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#081c14" flood-opacity=".25"/></filter>
+</defs>
+<rect width="1440" height="420" rx="24" fill="url(#bg)"/>
+<circle cx="1330" cy="20" r="260" fill="#86ad8c" opacity=".08"/><circle cx="1140" cy="450" r="230" fill="#86ad8c" opacity=".07"/>
+<path d="M26 390C230 210 230 520 580 308" fill="none" stroke="#8dad8c" stroke-opacity=".12" stroke-width="2"/>
+<text x="82" y="99" fill="#aacaad" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" letter-spacing="4">A QUIETER WAY TO KEEP YOUR BOOKS</text>
+<text x="77" y="201" fill="#faf8ec" font-family="Georgia,serif" font-size="86">LeafScribe</text>
+<text x="82" y="256" fill="#e0e6d6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="26">Your books. Your notes. Your format.</text>
+<rect x="82" y="302" width="145" height="34" rx="17" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".13"/>
+<text x="154" y="324" text-anchor="middle" fill="#d9e6d3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13">NATIVE macOS</text>
+<text x="249" y="324" fill="#aacaad" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14">Local by design. Personal by purpose.</text>
+<g filter="url(#shadow)" transform="translate(930 47) rotate(-9 110 155)">
+ <rect width="208" height="294" rx="9" fill="#89a58a"/>
+ <rect x="14" y="0" width="194" height="294" rx="8" fill="#a9bda1"/>
+ <path d="M53 86h113M53 103h91" stroke="#f6f5e9" stroke-width="4" opacity=".7"/>
+ <path d="M69 196c0-43 34-66 70-67 4 39-16 81-56 77m-8 20 50-78" stroke="#f6f5e9" fill="none" stroke-width="3"/>
+</g>
+<g filter="url(#shadow)" transform="translate(1092 72) rotate(8 110 155)">
+ <rect width="212" height="294" rx="7" fill="url(#paper)"/>
+ <rect x="25" y="35" width="103" height="7" rx="3" fill="#3e6552"/>
+ <path d="M25 67h161M25 82h153M25 97h161M25 112h129" stroke="#82917d" stroke-width="4" opacity=".6"/>
+ <rect x="22" y="90" width="130" height="13" rx="2" fill="#edda75" fill-opacity=".6"/>
+ <rect x="25" y="144" width="160" height="86" rx="5" fill="#f7efc1" stroke="#d9c967"/>
+ <path d="M39 164h66M39 181h129M39 194h111" stroke="#8a865e" stroke-width="4" opacity=".6"/>
+ <path d="M25 253h145M25 266h117" stroke="#82917d" stroke-width="4" opacity=".6"/>
+</g>
+</svg>

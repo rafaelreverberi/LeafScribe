@@ -1,0 +1,21 @@
+.build/
+dist/
+output/
+__pycache__/
+*.pyc
+.DS_Store
+.swiftpm/
+*.sqlite*
+
+# Private inputs, credentials, and distributable artifacts
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+*.epub
+*.pdf
+*.dmg
+*.zip
+*.app/
