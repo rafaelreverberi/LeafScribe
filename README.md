@@ -4,8 +4,8 @@
   <p><strong>Your books. Your notes. Your format.</strong></p>
   <p>A native macOS workspace for turning your own books into useful documents.</p>
   <p>
-    <a href="https://github.com/rafaelreverberi/LeafScribe/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/rafaelreverberi/LeafScribe?color=557c60&amp;style=flat-square" /></a>
-    <a href="https://github.com/rafaelreverberi/LeafScribe/actions/workflows/ci.yml"><img alt="Build and tests" src="https://github.com/rafaelreverberi/LeafScribe/actions/workflows/ci.yml/badge.svg" /></a>
+    <a href="https://github.com/rafaelreverberi/LeafScribe/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/rafaelreverberi/LeafScribe?color=557c60&amp;style=flat-square&amp;cacheSeconds=300" /></a>
+    <a href="https://github.com/rafaelreverberi/LeafScribe/actions/workflows/ci.yml"><img alt="Build and tests" src="https://github.com/rafaelreverberi/LeafScribe/actions/workflows/ci.yml/badge.svg?branch=main&amp;event=push" /></a>
     <img alt="macOS 14 or later" src="https://img.shields.io/badge/macOS-14%2B-333333?style=flat-square" />
     <img alt="Apple Silicon" src="https://img.shields.io/badge/Apple_Silicon-arm64-557c60?style=flat-square" />
     <a href="LICENSE"><img alt="Personal use license" src="https://img.shields.io/badge/license-Personal_Use-d5bc75?style=flat-square" /></a>
