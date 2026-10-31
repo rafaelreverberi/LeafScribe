@@ -1,3 +1,11 @@
+## Public release 0.2.0 — 2026-10-31
+
+- The independently authored application is distributed under the LeafScribe Personal Use License 1.0, with the upstream MIT and bundled runtime terms preserved separately. The application About screen includes the new license and version.
+- Local release checks passed: 33 engine tests, 2 Swift tests, 68 executed upstream tests (13 edition-specific tests skipped), and the full graphical bundle verification.
+- The release ZIP was unpacked and its ad-hoc code signature verified again. The app and frozen helper are arm64; Info.plist reports 0.2.0/build 3. Bundled license and notice files match the repository, and the archive SHA-256 matches SHA256SUMS. No EPUB, PDF, SQLite or database files are in the bundle.
+- All 11 vendored Python modules were independently compared by Git blob SHA against upstream revision 198577f47b0d2d0af6f728c70caa9e6e41c247e5 and match byte-for-byte.
+- The public GitHub workflow passed both jobs. Release assets are the app ZIP and its checksum file; local books, annotations, exports and validation working copies remain excluded from source control.
+
 ## Cover sizing preference — 2026-10-31
 
 - Settings → General → Cover display offers proportional fit (the existing default) and stretch to fill. The latter changes image proportions to cover the full frame. The shared AppStorage preference applies immediately to library/inspector covers and persists across launches; generated placeholders stay unchanged.
@@ -69,7 +77,7 @@ Before adapting any code, the upstream author's unmodified full suite ran 81 tes
 ## Boundaries
 
 - No Intel machine, macOS 14 host, Windows frontend, or signed/notarized public release was tested.
-- Automated GitHub Actions workflow was added but has not run remotely because this workspace has no configured GitHub remote.
+- GitHub Actions completed successfully for the initial public release: portable engine/upstream tests on Ubuntu, plus Swift tests, bundled app build, signature verification, helper health and ZIP packaging on macOS. Run: https://github.com/rafaelreverberi/LeafScribe/actions/runs/41203489524. Graphical WebKit/Vision verification is separately performed locally.
 - Beook compatibility varies by publisher/source format. The live PDF check establishes a complete section traversal with searchable output, not pixel fidelity, annotation-coordinate mapping, or a comprehensive visual audit of 155 paid-content pages.
 - OCR recovered the synthetic scan's expected phrase; it does not guarantee arbitrary language or scan accuracy.
 - The app does not claim PDF/A, tagged PDF, DRM removal, full interactive exercise support, batch exports, or PDF-layout-to-EPUB reconstruction. See README.md for supported conversion behavior.
